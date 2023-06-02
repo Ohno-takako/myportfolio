@@ -1,686 +1,461 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | ONO TAKAKO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--=====================================================
+      CSS Stylesheets
+    =====================================================-->
+    <link rel='stylesheet' type='text/css' href='css/destyle.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+  </head>
+  <body>
+    <!--=====================================================
+      Preloader
+    =====================================================-->
+    <div class='preloader'>
+      <div class='loader'></div>
+      <div class='background__left'></div>
+      <div class='background__right'></div>
+    </div>
 
+    <div class='main-content'>
+      <!--=====================================================
+        Page Borders
+      =====================================================-->
+      <div class='border border__left'></div>
+      <div class='border border__right'></div>
+      <div class='border border__top'></div>
+      <div class='border border__bottom'></div>
 
-		<title>My Portfolio | OHNO TAKAKO</title>
-
-
-		<!--=====================================================
-			CSS Stylesheets
-		=====================================================-->
-		<link rel='stylesheet' type='text/css' href='css/ionicons.min.css' >
-		<link rel='stylesheet' type='text/css' href='css/owl.carousel.css' >
-		<link rel='stylesheet' type='text/css' href='css/magnific-popup.css' >
-		<link rel='stylesheet' type='text/css' href='css/style.css' >
-
-	</head>
-	<body>
-
-
-		<!--=====================================================
-			Preloader
-		=====================================================-->
-		<div id='preloader' >
-			<div class='loader' ></div>
-			<div class='left' ></div>
-			<div class='right' ></div>
-		</div>
-
-
-		<div class='main-content' >
-
-			<!--=====================================================
-				Page Borders
-			=====================================================-->
-			<div class='page-border border-left' ></div>
-			<div class='page-border border-right' ></div>
-			<div class='page-border border-top' ></div>
-			<div class='page-border border-bottom' ></div>
-
-
-
-			<!--=====================================================
-				Menu Button
-			=====================================================-->
-			<a href='#' class='menu-btn' >
-				<span class='lines' >
-					<span class='l1' ></span>
-					<span class='l2' ></span>
-					<span class='l3' ></span>
-				</span>
-			</a>
-
-
-			<!--=====================================================
+      <!--=====================================================
 				Menu
 			=====================================================-->
-			<div class='menu' >
-				<div class='inner' >
-					<ul class='menu-items' >
-
-						<li>
-							<a href='#' class='section-toggle' data-section='intro' >
-								Home
-							</a>
-						</li>
- 
-						<li>
-							<a href='#about' class='section-toggle' data-section='about' >
-								About
-							</a>
-						</li>
-
-						<li>
-							<a href='#resume' class='section-toggle' data-section='resume' >
-								Resume
-							</a>
-						</li>
-
-						<li>
-							<a href='#portfolio' class='section-toggle' data-section='portfolio' >
-								Portfolio
-							</a>
-						</li>
-
-					</ul>
-				</div>
-			</div>
-
-			<div class='animation-block' ></div>
-
-
-			<!--=====================================================
-				Sections
-			=====================================================-->
-			<div class='sections' >
-
-				<!--=====================================================
-					Main Section
-				=====================================================-->
-				<section id='intro' class='section section-main active' >
-
-					<div class='container-fluid' >
-
-						<div class='v-align' >
-							<div class='inner' >
-								<div class='intro-text' >
-
-									<h1>OHNO TAKAKO</h1>
-
-									<p>
-										Designner/Engineer
-									</p>
-
-									<div class='intro-btns' >
-
-										<a href='#about' class='btn-custom section-toggle' data-section='about' >
-											Watch More
-										</a>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-
-				</section>
-
-
-				<!--=====================================================
-					About Section
-				=====================================================-->
-				<section id='about' class='section about-section border-d' >
-
-					<div class='section-block about-block' >
-						<div class='container-fluid' >
-
-							<div class='section-header' >
-								<h2>
-									I'm a <strong class='color'>Engineer</strong>
-								</h2>
-							</div>
-
-							<div class='row' >
-
-								<div class='col-md-4' >
-
-									<ul class='info-list' >
-
-										<li>
-											<strong>Name:</strong>
-											<span>OHNO TAKAKO</span>
-										</li>
-
-										<li>
-											<strong>School:</strong>
-											<span>HAL TOKYO Student 1st.</span>
-										</li>
-
-										<li>
-											<strong>Age:</strong>
-											<span>20 Years</span>
-										</li>
-
-										<li>
-											<strong>Residence:</strong>
-											<span>Japan Tokyo</span>
-										</li>
-
-									</ul>
-
-								</div>
-
-								<div class='col-md-8' >
-
-									<div class='about-text' >
-										<p>
-											初めまして!HAL東京 IT学部 情報処理学科 1年の大野 貴子(おおの たかこ)と申します！中学時代にHTML/CSSのプログラミングに出会い
-											それ以降勉強を続けて来ました。Webのフロントエンドを制作する事に一番興味がありこの力を今後活かして行けたらと思っています！
-											クラスでは委員長を務めており、クラスメイトに気配りをしながら率先して引っ張り行動をしています。　そのためあだ名は委員長、もしくはゴンザレスです。
-										</p>
-
-										<p>
-											趣味は写真撮影・ミュージカル/舞台鑑賞と日頃から芸術に触れる機会を増やし、自らの芸術センスを磨けるように心掛けています！
-											写真撮影は草木や花々等の風景写真を撮る事が得意で最近ではレトロな雰囲気のスポットに行って撮影をすることにハマっています。
-											舞台鑑賞においては劇団や演目にこだわることなく様々な世界観に触れて自分の知見を増やしたいと思い多くて月に2.3回は劇場に足を運んでいます。
-											そのため有楽町(東京屈指の劇場街)のお店や地理には人一倍詳しいです。最近の一押し舞台は「Endless Shock」です。
-										</p>
-
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-					</div>
-
-					<div class='section-block services-block' >
-
-						<div class='container-fluid' >
-
-							<div class='section-header' >
-
-								<h2>My <strong class='color' >Services</strong></h2>
-
-							</div>
-
-
-
-							<div class='row' >
-
-								<div class='col-md-4' >
-									<div class='service' >
-
-										<div class='icon' >
-											<i class='icon-basic-photo' ></i>
-										</div>
-
-										<div class='content' >
-
-											<h4>Photography</h4>
-
-											<p>
-												趣味として撮った写真をPhotoShop等で加工をし自分の作品集として紙媒体に印刷をし保管しています。今後は紙媒体だけでなくWebサイトを作り自分の作品を紹介するサイトを制作していきたいと考えています。
-											</p>
-
-										</div>
-
-									</div>
-								</div>
-
-								<div class='col-md-4' >
-									<div class='service' >
-
-										<div class='icon' >
-											<i class='icon-basic-keyboard' ></i>
-										</div>
-
-										<div class='content' >
-
-											<h4>Programming</h4>
-
-											<p>
-												主にフロントエンドをメインとしたプログラミングを行っています。DBのMySQLやJava言語を使いフロントから中の機能全てを制作できるマルチスタックなエンジニアになりたいと思い日々勉強に励んでいます。
-											</p>
-
-										</div>
-
-									</div>
-								</div>
-
-							</div>
-
-
-						</div>
-
-					</div>
-
-					<div class='section-block skills-block' >
-						<div class='container-fluid' >
-
-							<div class='section-header' >
-
-								<h2>
-									My <strong class='color' >Skills</strong>
-								</h2>
-
-							</div>
-
-							<div class='row' >
-
-								<div class='col-md-6' >
-
-									<div class='skill' >
-
-										<h4>HTML/CSS</h4>
-
-										<div class='bar' >
-											<div class='percent' style='width:85%;' ></div>
-										</div>
-
-									</div>
-
-
-									<div class='skill' >
-
-										<h4>php</h4>
-
-										<div class='bar' >
-											<div class='percent' style='width:30%;' ></div>
-										</div>
-
-									</div>
-
-
-									<div class='skill' >
-
-										<h4>jQuery</h4>
-
-										<div class='bar' >
-											<div class='percent' style='width:50%;' ></div>
-										</div>
-
-									</div>
-
-								<!-- </div> -->
-
-								<div class='skill' >
-
-										<h4>JavaScript</h4>
-
-										<div class='bar' >
-											<div class='percent' style='width:50%;' ></div>
-										</div>
-
-								</div>
-
-
-								<div class='skill' >
-
-										<h4>Java</h4>
-
-										<div class='bar' >
-											<div class='percent' style='width:70%;' ></div>
-										</div>
-
-								</div>
-
-
-								<div class='skill' >
-
-										<h4>MySQL</h4>
-
-										<div class='bar' >
-											<div class='percent' style='width:75%;' ></div>
-										</div>
-
-								</div>
-
-								</div>
-
-							</div>
-
-
-						</div>
-					</div>
-
-
-				</section>
-
-
-				<!--=====================================================
-					Resume Section
-				=====================================================-->
-				<section id='resume' class='section resume-section border-d' >
-
-					<div class='section-block timeline-block' >
-
-						<div class='container-fluid' >
-
-							<div class='section-header' >
-
-								<h2>My <strong class='color' >Education</strong></h2>
-
-							</div>
-
-							<ul class='timeline' >
-
-								<li>
-
-									<div class='timeline-content' >
-
-										<h4>Junior High 2st.</h4>
-
-										<em>
-											<span>2014-</span>
-										</em>
-
-										<p>
-											中学2年生の時、地元の催し物にて初めてプログラミング体験をする。HTMLによるWeb制作技術を体験し、プログラミングに興味を持つきっかけに。
-										</p>
-
-									</div>
-
-								</li>
-
-								<li>
-
-									<div class='timeline-content' >
-
-										<h4>Junior High 3st.</h4>
-
-										<em>
-											<span>2014-</span>
-										</em>
-
-										<p>
-											独学で勉強を始める。HTML/CSSによる静的Web制作を行い、より深く学びたいと思い情報科への進学を決定。
-										</p>
-
-									</div>
-
-								</li>
-
-								<li>
-
-									<div class='timeline-content' >
-
-										<h4>High School 1st-3st.</h4>
-
-										<em>
-											<span>2014-2018</span>
-										</em>
-
-										<p>
-											高校時代の３年間、情報科にてより詳しくインターネットについての技術を学ぶ。HTML/CSS等のWeb制作技術だけでなくデザインやネットワーク構成等多岐に渡って学習。
-										</p>
-
-									</div>
-
-								</li>
-
-								<li>
-
-									<div class='timeline-content' >
-
-										<h4>High School ３st.</h4>
-
-										<em>
-											<span>2018-.</span>
-										</em>
-
-										<p>
-											高校時代学習してきた内容を今後の職としていきたいと思い情報系の専門学校に進学を決定。より就職に強くWeb制作以外にも本格的にプログラミングを学べることを重視しHAL東京への進学を決定。
-										</p>
-
-									</div>
-
-								</li>
-
-								<li>
-
-									<div class='timeline-content' >
-
-										<h4>HAL TOKYO １st.～Recent</h4>
-
-										<em>
-											<span>2018-.</span>
-										</em>
-
-										<p>
-											情報処理学科に進学をし、HTML/CSS・JavaScript・MYSQL・Javaなど様々な言語や技術を学ぶようになる。今後も様々な言語や技術に触れアウトプットをしていく。
-										</p>
-
-									</div>
-
-								</li>
-
-
-
-							</ul>
-
-						</div>
-
-					</div>
-
-
-
-
-
-				</section>
-
-
-				<!--=====================================================
-					Portfolio Section
-				=====================================================-->
-				<section id='portfolio' class='section portfolio-section border-d' >
-
-					<div class='section-block portfolio-block' >
-
-						<div class='container-fluid' >
-
-
-							<div class='section-header' >
-								<h2>My <strong class='color' >Works</strong></h2>
-							</div>
-
-							<ul class='portfolio-filters' >
-								<li>
-									<a href='#' data-group='all' >
-										All
-									</a>
-								</li>
-								<li>
-									<a href='#' data-group='web' >
-										Web
-									</a>
-								</li>
-								<li>
-									<a href='#' data-group='photography' >
-										Photography
-									</a>
-								</li>
-							</ul>
-
-
-
-							<ul class='portfolio-items' >
-
-								<li data-groups='["web"]' >
-									<div class='inner' >
-										<img src='img/portfolio/1.jpg' alt>
-
-										<div class='overlay' >
-
-											<a href='#popup-1' class='view-project' >
-												View Librio
-											</a>
-
-											<!--project popup-->
-											<div id='popup-1' class='popup-box zoom-anim-dialog mfp-hide' >
-												<figure>
-
-													<!--project popup image-->
-													<img src='img/portfolio/1.jpg' alt>
-
-												</figure>
-												<div class='content' >
-
-													<!--project popup title-->
-													<h4>Librio</h4>
-
-													<!--project popup description-->
-													<p>
-														就職作品プレゼンテーションに出品した作品。図書情報を検索し、共有して本により人と人とを繋げることを目的としたWebサイト
-													</p>
-
-												</div>
-
-											</div>
-
-										</div>
-
-									</div>
-								</li>
-
-								<li data-groups='["web"]' >
-									<div class='inner' >
-										<img src='img/portfolio/4.jpg' alt>
-
-										<div class='overlay' >
-
-											<a href='#popup-4' class='view-project' >
-												View Actook
-											</a>
-
-											<!--project popup-->
-											<div id='popup-4' class='popup-box zoom-anim-dialog mfp-hide' >
-												<figure>
-
-													<!--project popup image-->
-												<div class='overlay' ><a href="https://actook.netlify.com/"><img src='img/portfolio/4.jpg' alt></a></div>
-
-												</figure>
-												<div class='content' >
-
-													<!--project popup title-->
-													<h4>Actook</h4>
-
-													<!--project popup description-->
-													<p>
-														自らの趣味である本とミュージカル鑑賞を掛け合わせてみようという事で発案したサイト。ミュージカルの原作を簡単に調べることが出来るサイト。
-													</p>
-
-												</div>
-
-											</div>
-
-										</div>
-
-									</div>
-								</li>
-
-
-								<li data-groups='["photography"]' >
-									<div class='inner' >
-										<img src='img/portfolio/2.jpg' alt>
-
-										<div class='overlay' >
-
-											<a href='#popup-2' class='view-project' >
-												View Photography
-											</a>
-
-											<!--project popup-->
-											<div id='popup-2' class='popup-box zoom-anim-dialog mfp-hide' >
-												<figure>
-
-													<!--project popup image-->
-													<img src='img/portfolio/2.jpg' alt>
-
-												</figure>
-												<div class='content' >
-
-													<!--project popup title-->
-													<h4>My Photography</h4>
-
-													<!--project popup description-->
-													<p>
-														昨年の夏アートアクアリウム2018にて撮影した1枚。金魚とバックライトの灯りがほのかに合わさった夏を感じさせる1枚。
-													</p>
-
-												</div>
-
-											</div>
-
-										</div>
-
-									</div>
-								</li>
-
-								<li data-groups='["photography"]' >
-									<div class='inner' >
-										<img src='img/portfolio/3.jpg' alt>
-
-										<div class='overlay' >
-
-											<a href='#popup-3' class='view-project' >
-												View Photography
-											</a>
-
-											<!--project popup-->
-											<div id='popup-3' class='popup-box zoom-anim-dialog mfp-hide' >
-												<figure>
-
-													<!--project popup image-->
-													<img src='img/portfolio/3.jpg' alt>
-
-												</figure>
-												<div class='content' >
-
-													<!--project popup title-->
-													<h4>My Photography</h4>
-
-													<!--project popup description-->
-													<p>
-														一昨年の夏北海道旅行に行った際にラベンダー畑の中で撮った一枚。夏の涼しさを感じさせるような一枚に。
-													</p>
-
-												</div>
-
-											</div>
-
-										</div>
-
-									</div>
-								</li>
-
-							</ul>
-
-						</div>
-
-					</div>
-
-				</section>
-
-
-		<!--=====================================================
-			JavaScript Files
-		=====================================================-->
-		<script src='js/jquery.min.js' ></script>
-		<script src='js/jquery.shuffle.min.js' ></script>
-		<script src='js/owl.carousel.min.js' ></script>
-		<script src='js/jquery.magnific-popup.min.js' ></script>
-		<script src='js/validator.min.js' ></script>
-		<script src='js/script.js' ></script>
-
-	</body>
+      <div class='menu'>
+        <!--=====================================================
+          Menu Button
+        =====================================================-->
+        <p class='menu__button'>
+          <span class='lines'>
+            <span class='lines__first'></span>
+            <span class='lines__second'></span>
+            <span class='lines__third'></span>
+          </span>
+        </p>
+        <div class='menu__inner'>
+          <ul class='menu__items'>
+            <li>
+              <a href='#' class='section__toggle' data-section='home'>Home</a>
+            </li>
+            <li>
+              <a href='#about' class='section__toggle' data-section='about'>About</a>
+            </li>
+            <!-- <li>
+              <a href='#resume' class='section--toggle' data-section='resume'>Resume</a>
+            </li> -->
+            <li>
+              <a href='#portfolio' class='section__toggle' data-section='portfolio'>Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class='animation-block'></div>
+
+      <!--=====================================================
+        Section
+      =====================================================-->
+      <div class='sections'>
+        <!--=====================================================
+          Main Section
+        =====================================================-->
+        <section id='home' class='section section__main is-active'>
+          <div class='section__inner'>
+            <div class="intro">
+              <div class='intro__text'>
+                <h1>ONO TAKAKO</h1>
+                <p>Markup Engineer / Designer</p>
+                <div class='intro__button'>
+                  <a href='#about' class='button__custom section__toggle' data-section='about'>Watch More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--=====================================================
+          About Section
+        =====================================================-->
+        <section id='about' class='section section__about colorChange'>
+          <div class='section__block'>
+            <div class='section__fluid'>
+              <div class='section__heading'>
+                <h2>
+                  I'm a <strong class='color'>Engineer</strong>
+                </h2>
+              </div>
+              <ul class='about__list'>
+                <li>
+                  <strong>Name</strong>
+                  <span>OHNO TAKAKO</span>
+                </li>
+                <li>
+                  <strong>School</strong>
+                  <span>HAL TOKYO 情報処理学科</span>
+                </li>
+                <li>
+                  <strong>Age</strong>
+                  <span>25 Years</span>
+                </li>
+                <li>
+                  <strong>Residence</strong>
+                  <span>Japan Tokyo</span>
+                </li>
+                <li>
+                  <strong>Favorite</strong>
+                  <span>モノづくり（最近はプラモデル制作にハマっています）</span>
+                </li>
+              </ul>
+              <div class='about__desc'>
+                <p>
+                  初めまして。ポートフォリオをご覧いただきありがとうございます。<br>
+                  大野 貴子(おおの たかこ)と申します。<br>
+                  中学生時代にHTML/CSSのプログラミングに出会ったことがきっかけでそれ以降勉強を続けて参りました。<br>
+                  高校・専門学校でも同様にフロントエンドの基礎を学び、3年間マークアップエンジニアとして務めております。<br>
+                  <br>
+                  Web業界は流れが早い反面、新しい技術をどんどんと身につけることが出来るためワクワクします。<br>
+                  デザイン・技術のキャッツアップを続けながら表現の幅を広げていきより良い「モノづくり」を追求していきたいと考えております。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class='section__block'>
+            <div class='section__fluid'>
+              <div class='section__heading'>
+                <h2>My <strong class='color'>Services</strong></h2>
+              </div>
+              <div class='service'>
+                <div class='service__desc'>
+                  <h3>Web Development</h3>
+                  <p>
+                    更新や修正のしやすさを考慮したコーディングを心がけております。<br>
+                    新しく制作を行う際には、毎度新しい技術を使うようにし、前回の自分よりも成長出来るように制作に取り組んでおります。<br>
+                    日々新しい技術が生まれるWeb業界ですが、思い通りの実証が行えた時のやりがい、またビジネスや人の生活に直結し、素晴らしいデザイン・技術のサイトを世界規模で沢山の人に見てもらえるという点にワクワク感を覚えました。
+                    <br>
+                    これからも技術のキャッチアップを続け、ゆくゆくはWebGLなどを使いこなし、クライアントの最適解を制作出来るようにしたいと考えております。
+                  </p>
+                </div>
+                <div class='skills'>
+                  <div class='section__fluid'>
+                    <h3>Language</h3>
+                    <div class='skill'>
+                      <h4>HTML/CSS</h4>
+                      <div class='bar'>
+                        <div class='percent' style='width:95%;'></div>
+                      </div>
+                    </div>
+                    <div class='skill'>
+                      <h4>PHP</h4>
+                      <div class='bar'>
+                        <div class='percent' style='width:30%;'></div>
+                      </div>
+                    </div>
+                    <div class='skill'>
+                      <h4>jQuery</h4>
+                      <div class='bar'>
+                        <div class='percent' style='width:80%;'></div>
+                      </div>
+                    </div>
+                    <div class='skill'>
+                      <h4>JavaScript</h4>
+                      <div class='bar'>
+                        <div class='percent' style='width:80%;'></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='section__fluid'>
+                    <h3>Tools</h3>
+                    <div class='skill'>
+                      <h4>Visual Studio Code</h4>
+                      <div class='bar'>
+                        <div class='percent' style='width:90%;'></div>
+                      </div>
+                    </div>
+                    <div class='skill'>
+                      <h4>GitHub</h4>
+                      <div class='bar'>
+                        <div class='percent' style='width:30%;'></div>
+                      </div>
+                    </div>
+                    <div class='skill'>
+                      <h4>WordPress</h4>
+                      <div class='bar'>
+                        <div class='percent' style='width:30%;'></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='service'>
+                <div class='service__desc'>
+                  <h3>Web Design</h3>
+                  <p>
+                    Webサイトのデザインカンプ制作やバナーのデザインができます。<br>
+                    UIやどうしたらコンバージョンを達成できるか、エンドユーザーが迷わない導線になっているかなどを考慮しながらデザイン制作を行っております。<br>
+                    デザインのトレンドやアプローチを日々目にするWebサイトからキャッチアップするためにNotionやFigmaでサイトレビューやトレースをストックし、制作に活かせるように取り組んでおります。<br>
+                    <br>
+                    日々のキャッチアップや学びを積み重ね、WebGLのような3D表現にも幅を広げてクライアントの最適解をご提案できるようなクリエイターになりたいと考えております。
+                  </p>
+                </div>
+                <div class='skills'>
+                  <div class='section__fluid'>
+                    <h3>Tools</h3>
+                    <div class='skill'>
+                      <h4>Illustrator</h4>
+                      <div class='bar'>
+                        <div class='percent' style='width:85%;'></div>
+                      </div>
+                    </div>
+                    <div class='skill'>
+                      <h4>Photoshop</h4>
+                      <div class='bar'>
+                        <div class='percent' style='width:85%;'></div>
+                      </div>
+                    </div>
+                    <div class='skill'>
+                      <h4>Adobe XD</h4>
+                      <div class='bar'>
+                        <div class='percent' style='width:75%;'></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--=====================================================
+          Resume Section
+        =====================================================-->
+        <section id='resume' class='section section__resume colorChange'>
+          <div class='section__block'>
+            <div class='section__fluid'>
+              <div class='section__heading'>
+                <h2>My <strong class='color'>Education</strong></h2>
+              </div>
+              <ul class='timeline'>
+                <li>
+                  <div class='timeline__content'>
+                    <h4>Junior High 2st.</h4>
+                    <em>
+                      <span>2014-</span>
+                    </em>
+                    <p>
+                      中学2年生の時、地元の催し物にて初めてプログラミング体験をする。HTMLによるWeb制作技術を体験し、プログラミングに興味を持つきっかけに。
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class='timeline__content'>
+                    <h4>Junior High 3st.</h4>
+                    <em>
+                      <span>2014-</span>
+                    </em>
+                    <p>
+                      独学で勉強を始める。HTML/CSSによる静的Web制作を行い、より深く学びたいと思い情報科への進学を決定。
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class='timeline__content'>
+                    <h4>High School 1st-3st.</h4>
+                    <em>
+                      <span>2014-2018</span>
+                    </em>
+                    <p>
+                      高校時代の３年間、情報科にてより詳しくインターネットについての技術を学ぶ。HTML/CSS等のWeb制作技術だけでなくデザインやネットワーク構成等多岐に渡って学習。
+                      高校時代学習してきた内容を今後の職としていきたいと思い情報系の専門学校に進学を決定。より就職に強くWeb制作以外にも本格的にプログラミングを学べることを重視しHAL東京への進学を決定。
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class='timeline__content'>
+                    <h4>HAL TOKYO </h4>
+                    <em>
+                      <span>2018-.</span>
+                    </em>
+                    <p>
+                      情報処理学科に進学をし、HTML/CSS・JavaScript・MYSQL・Javaなど様々な言語や技術を学ぶようになる。
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--=====================================================
+          Portfolio Section
+        =====================================================-->
+        <section id='portfolio' class='section section__portfolio colorChange'>
+          <div class='section__block portfolio-block'>
+            <div class='section__fluid'>
+              <div class='section__heading'>
+                <h2>My <strong class='color'>Works</strong></h2>
+              </div>
+              <ul class='portfolio__filters'>
+                <li>
+                  <a href='#' data-group='all'>
+                    All
+                  </a>
+                </li>
+                <li>
+                  <a href='#' data-group='design'>
+                    Web Design
+                  </a>
+                </li>
+                <li>
+                  <a href='#' data-group='development'>
+                    Web Development
+                  </a>
+                </li>
+              </ul>
+              <ul class='portfolio__items'>
+                <li data-groups='["design"]'>
+                  <div class='portfolio__inner'>
+                    <img src='img/portfolio/portfolio.jpg' alt>
+                    <div class='overlay'>
+                      <a href='#popup-portfolio' class='view-project'>
+                        View portfolio
+                      </a>
+                      <div id='popup-portfolio' class='popup__box zoom-anim-dialog mfp-hide'>
+                        <figure>
+                          <div class='overlay'>
+                            <img src='img/portfolio/portfolio.jpg' alt>
+                          </div>
+                        </figure>
+                        <div class='portfolio__desc'>
+                          <h4>ポートフォリオサイト</h4>
+                          <p>
+                            転職活動のために自身のポートフォリオサイトを作成いたしました。学習をする中でデザインを作っては別案を制作しを繰り返しデザインを練りました。<br>
+                            経験が浅い中での転職のため、採用担当者様はどのようなポートフォリオならば見てもらえるか考え、自身の強みなど伝え名前を覚えてもらえるように制作しております。
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li data-groups='["design"]'>
+                  <div class='portfolio__inner'>
+                    <img src='img/portfolio/actook.jpg' alt>
+                    <div class='overlay'>
+                      <a href='#popup-actook' class='view-project'>
+                        View Actook
+                      </a>
+                      <div id='popup-actook' class='popup__box zoom-anim-dialog mfp-hide'>
+                        <figure>
+                          <div class='overlay'>
+                            <a href="https://actook.netlify.com/" target="_blank">
+                              <img src='img/portfolio/actook.jpg' alt>
+                            </a>
+                          </div>
+                        </figure>
+                        <div class='portfolio__desc'>
+                          <h4>仮装サイト<br>ミュージカル原作専門 図書ECサイト</h4>
+                          <p>
+                            自らの趣味である読書とミュージカルを掛け合わせた仮想サイト。<br>
+                            自身の得意とするECサイトをベースとし、UI・UXにもターゲットとなるユーザー目線を考えこだわりました。
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li data-groups='["development"]'>
+                  <div class='portfolio__inner'>
+                    <img src='img/portfolio/snidel.jpg' alt>
+                    <div class='overlay'>
+                      <a href='#popup-snidel' class='view-project'>
+                        View SNIDEL
+                      </a>
+                      <div id='popup-snidel' class='popup__box zoom-anim-dialog mfp-hide'>
+                        <figure>
+                          <a href="https://snidel.com/" target="_blank">
+                            <img src='img/portfolio/snidel.jpg' alt>
+                          </a>
+                        </figure>
+                        <div class='portfolio__desc'>
+                          <h4>SNIDEL 様<br>ECサイト運用・保守</h4>
+                          <p>
+                            3年間マークアップエンジニアとしてLP作成・コンテンツ追加等のサイト改修・ECサイト運用保守を行なっております。
+                            直近1年間はチームリーダーとしてクライアント様との実装提案等も行って参りました。
+                          </p>
+                          <div class="example">
+                            <h5>LP制作事例</h5>
+                            <p>
+                              <span><a href="https://snidel.com/snidel_home/page/feature/2022/0525/?plan=SNH220525Botanical&advc=SNH220525Botanical" target="_blank">https://snidel.com/snidel_home/page/feature/2022/0525/?plan=SNH220525Botanical&advc=SNH220525Botanical</a></span>
+                              <span><a href="https://snidel.com/snidel_home/page/feature/2022/1108/?plan=SNH221111Harry&advc=SNH221111Harry" target="_blank">https://snidel.com/snidel_home/page/feature/2022/1108/?plan=SNH221111Harry&advc=SNH221111Harry</a></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li data-groups='["development"]'>
+                  <div class='portfolio__inner'>
+                    <img src='img/portfolio/milaowen.jpg' alt>
+                    <div class='overlay'>
+                      <a href='#popup-milaowen' class='view-project'>
+                        View Mila Owen
+                      </a>
+                      <div id='popup-milaowen' class='popup__box zoom-anim-dialog mfp-hide'>
+                        <figure>
+                          <a href="https://milaowen.com/" target="_blank">
+                            <img src='img/portfolio/milaowen.jpg' alt>
+                          </a>
+                        </figure>
+                        <div class='portfolio__desc'>
+                          <h4>Mila Owen 様<br>ECサイト運用・保守</h4>
+                          <p>
+                            SNIDEL様と同じく、3年間マークアップエンジニアとしてLP作成・コンテンツ追加等のサイト改修・ECサイト運用保守を行なっております。
+                            直近1年間はチームリーダーとしてクライアント様との実装提案等も行って参りました。
+                          </p>
+                          <div class="example">
+                            <h5>LP制作事例</h5>
+                            <p>
+                              <span><a href="https://milaowen.com/Page/feature/preorder/2023/ss1st/?plan=MO230112SS1st&advc=MO230112SS1st" target="_blank">https://milaowen.com/Page/feature/preorder/2023/ss1st/?plan=MO230112SS1st&advc=MO230112SS1st</a></span>
+                              <span><a href="https://milaowen.com/Page/feature/2023/0413_look/?plan=MO230413OMASALOOK&advc=MO230413OMASALOOK" target="_blank">https://milaowen.com/Page/feature/2023/0413_look/?plan=MO230413OMASALOOK&advc=MO230413OMASALOOK</a></span>
+                              <span><a href="https://milaowen.com/Page/feature/preorder/2023/ss2nd/?plan=MO230407SS2nd&advc=MO230407SS2nd" target="_blank">https://milaowen.com/Page/feature/preorder/2023/ss2nd/?plan=MO230407SS2nd&advc=MO230407SS2nd</a></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--=====================================================
+      JavaScript Files
+    =====================================================-->
+    <script src='js/jquery.min.js'></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/jquery.magnific-popup.min.js'></script>
+    <script src='js/script.js'></script>
+  </body>
 </html>
